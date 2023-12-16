@@ -21,7 +21,9 @@ function displayUsers(users) {
         <h2>Name: ${user.name}</h2>
         <h2>Id: ${user.id}</h2>
         <p>Email: ${user.email}</p>
-        <a href="/pages/todos.html" onclick="getTodos(${user.id})">Todos</a>
+        <p>Website: ${user.website}</p>
+        <p>Phone: ${user.phone}</p>
+        <a  href="/pages/todos.html" onclick="getTodos(${user.id})">Todos</a>
       </div>
     `;
   });

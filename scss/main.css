@@ -1,5 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .cards {
-  font-family: Roboto;
+  font-family: sans-serif;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -9,14 +21,73 @@
 }
 
 .card {
+  font-family: sans-serif;
   flex-basis: 25%;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.45);
-  height: 200px;
+  border: 2px solid #9f9f9f;
+  transition: 0.4;
+  height: 240px;
 }
 
-@font-face {
-  font-family: Roboto;
-  src: url(../themes/Roboto-Regular.ttf);
+.card:hover {
+  box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.45);
+}
+
+.heading1 {
+  font-family: sans-serif;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cards {
+  font-family: sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  font-family: serif;
+  flex-basis: 25%;
+  padding: 20px;
+  border-radius: 8px;
+  height: 300px;
+  border: 2px solid #9f9f9f;
+  transition: 0.4s;
+}
+
+.par12 {
+  font-family: sans-serif;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p {
+  font-family: sans-serif;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+.card h2 {
+  padding-top: 8px;
+  font-family: sans-serif;
+}
+
+a {
+  margin-top: 1000px;
+  list-style: none;
+  font-family: sans-serif;
 }/*# sourceMappingURL=main.css.map */

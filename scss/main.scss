@@ -1,2 +1,50 @@
 @use "pages" as *;
-@use "themes" as *;
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.cards {
+  font-family: sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  font-family: serif;
+  flex-basis: 25%;
+  padding: 20px;
+  border-radius: 8px;
+  height: 300px;
+  border: 2px solid #9f9f9f;
+  transition: 0.4s;
+}
+
+.par12 {
+  font-family: sans-serif;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  p {
+    font-family: sans-serif;
+    padding-top: 8px;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    padding-top: 8px;
+    font-family: sans-serif;
+  }
+}
+a {
+  margin-top: 1000px;
+  list-style: none;
+  font-family: sans-serif;
+}
